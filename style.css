@@ -4,6 +4,7 @@
     box-sizing: border-box;
 
 
+
 }
 
 
@@ -11,7 +12,9 @@
 .main-section {
     background-image: url(./assets/fondo-tech.jpg);
     background-size: cover;
-    min-height: calc(100vh - 80px);
+    min-width: 100vw;
+    height: 100vh;
+
     display: grid;
     grid-template-areas:
         " header header header header "
@@ -83,7 +86,7 @@ header {
     }
 
     & p {
-        max-width: 80%;
+        max-width: 70%;
         color: white;
         font-size: 60px;
         font-family: "Roboto Slab", serif;
@@ -178,6 +181,6 @@ header {
 footer {
     grid-area: footer;
     background-color: black;
-    height: 80px;
+    height: 70px;
 
 }
