@@ -186,9 +186,13 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
-    .main-section {
+    body {
         background: url(./assets/fondo-tech-v.jpg);
         background-size: cover;
+    }
+
+    .main-section {
+
         min-height: 100vh;
         display: flex;
         flex-direction: column;
